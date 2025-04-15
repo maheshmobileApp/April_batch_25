@@ -28,6 +28,8 @@ void add(int num1, int num2){
   print(sum);
 }
 
+void addArrowFunction(int num1,int num2) => num1 + num1;
+
 //return type , parameter
 String convertStringToLowerCase(String name){
   String value = name.toLowerCase();
@@ -35,9 +37,12 @@ String convertStringToLowerCase(String name){
 }
 
 //return type, no parameter
-String greet(){
-  return "Welcome";
-}
+// String greet(){
+//   return "Welcome";
+// }
+
+String greet() => "Welcome";
+
 
 void main(){
   printName();//Calling the function
@@ -55,4 +60,13 @@ void main(){
 1. Write a program in dart to print you own name using function
 2. wirte a program in dart that generate random password
 3. wirte a program in dart calculate area of a cricle using function
+* */
+
+//Arrow Function in Dart
+
+/*
+Dart has a special syntax for the function body, wich is only one line.
+The arrow function is represented by => symbol.
+
+ returntyle functionName(parameters) => expression;
 * */
