@@ -13,7 +13,7 @@ returnType functionName(par1,par2......) {
 retrun Type: It tells you the function output type. it can be void, int, double, if function doesn't return anything you can use void as the return type
 Funtion Name: you can name functions by almost any name. always follow a lowerCamelCase naming convention
 parameters: Parameters are the input to the function,
-
+Lower Camel case : Lower camel case is a naming convention where the first word starts with a lowercase letter, and subsequent words start with uppercase letters, without spaces
 
 
 * */

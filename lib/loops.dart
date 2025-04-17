@@ -11,16 +11,19 @@ do while loop
 //For Each Loop: The for each loop iterates over all list elements or variables.
 it is userful when you want to loop through list/collection.(list, map)
 
+null safety in dart
 
 * */
-
+import 'dart:io';
 void main(){
+  stdout.write('Enter your value \n');
+  String? value = stdin.readLineSync();// "2
+  int count =  int.parse(value ?? "0");//"2" -> 2
 
-
-  for(int i = 0 ; i < 10 ; i++){
-    if(i == 5) {
-      break;
-    }
+  for(int i = 0 ; i < count ; i++){
+    // if(i == 5) {
+    //   break;
+    // }
     print("Flutter $i");
   }
 
