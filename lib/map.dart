@@ -52,4 +52,13 @@ myDetails.clear();
 Create a map with name, address, age, country keys and store values to it. Update country name to other country and print all keys and values.
 Create a map with name, phone keys and store some values to it. Use where to find all keys that have length 4.
 Create a simple to-do application that allows user to add, remove, and view their task.
+
+1. Rajesh -> install
+2.Sheshagiri > install
+3.Sandeep  > install
+4.Shakuntala -
+5. Amulya
+6.Mouli -> install
+
+
 * */
