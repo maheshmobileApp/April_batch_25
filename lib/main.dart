@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'splash_screen.dart';
 import 'login_screen.dart';
+import 'row_column.dart';
 void main() {
   // MyFirstApp app = MyFirstApp();
   runApp(MyFirstApp());
@@ -22,7 +23,7 @@ class _MyFirstAppState extends State<MyFirstApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:SplashScreen()
+      home:RowAndColumn()
     );
   }
 }
